@@ -1,0 +1,24 @@
+{
+    "parm1": "value1",
+    "parm2": "value2",
+    "DISPLAY": "Merged from config file",
+    "_configs": {
+        "activeConfig": "cfg1",
+        "cfg1": {
+            "appliesTo": "cfg1",
+            "parm1": "value1-cfg1",
+            "parm3": "value3",
+            "parm6": "value6"
+        },
+        "cfg2": {
+            "appliesTo": "cfg2",
+            "parm1": "value1-cfg2",
+            "parm4": "value4"
+        },
+        "cfg2_cfg2":{
+            "appliesTo": ["cfg1","cfg2"],
+            "parm1": "value1-cfg12",
+            "parm5": "value5"
+        }                    
+    }
+}

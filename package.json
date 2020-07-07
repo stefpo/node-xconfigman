@@ -1,0 +1,11 @@
+{
+  "name": "xconfigman",
+  "version": "1.0.0",
+  "description": "Application configuration for Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stephane.potelle@gmail.com",
+  "license": "MIT"
+}
